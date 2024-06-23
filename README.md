@@ -101,7 +101,7 @@ server.use(express.json());
 // L'endpoint principale a cui è collegato il router è "/", quindi tutte le rotte definite nel router saranno relative a "/"
 server.use("/", router);
 
-// Iniziamo il server e lo facciamo ascoltare sulla porta definita
+// Diamo il via libera al server e lo facciamo ascoltare sulla porta scelta da noi (in questo caso la 3001)
 server.listen(port, () => {
   console.log(`Server partito sulla porta: ${port}`);
 });˙
