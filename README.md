@@ -37,7 +37,7 @@ node server.js
 
 Dovremmo riuscire a vedere in console il messaggio: "Server partito sulla porta: 3001"
 
-Se poi visitiamo il localhost all'indirizzo http://localhost:3001/, otterremo “Ciao, mondo!”.
+Se poi visitiamo il localhost all'indirizzo http://localhost:3001/, otterremo “📥 GET richiesta alla root del router”.
 
 
 ## Creazione ed utilizzo di un Router
